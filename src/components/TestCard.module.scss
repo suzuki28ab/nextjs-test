@@ -1,0 +1,15 @@
+.testCardContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testCardItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
