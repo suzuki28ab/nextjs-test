@@ -1,15 +1,20 @@
 import styles from '@/components/Footer.module.scss'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className={styles.Footer}>
+    <footer className={styles.footer}>
       <h1>
-        <a href="#">ふったーですう</a>
+        <Link href="/">
+          <a>ふったーですう</a>
+        </Link>
       </h1>
       <nav>
         <ul>
           <li>
-            <a href="#">ABOUT</a>
+            <Link href="/counter">
+              <a>カウンター</a>
+            </Link>
           </li>
           <li>
             <a href="#">SERVICE</a>
