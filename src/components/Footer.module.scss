@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  h1 {
+    font-size: 24px;
+    width: 50%;
+    padding-left: 100px;
+  }
+  nav {
+    font-size: 20px;
+    width: 50%;
+    padding-right: 60px;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
